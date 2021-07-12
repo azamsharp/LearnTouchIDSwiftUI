@@ -8,18 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		8DA5994E2692936200E7630A /* LearnTouchIDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA5994D2692936200E7630A /* LearnTouchIDApp.swift */; };
-		8DA599502692936200E7630A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA5994F2692936200E7630A /* ContentView.swift */; };
 		8DA599522692936800E7630A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DA599512692936800E7630A /* Assets.xcassets */; };
 		8DA599552692936800E7630A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DA599542692936800E7630A /* Preview Assets.xcassets */; };
+		8DA5995E2692938D00E7630A /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA5995D2692938D00E7630A /* LoginScreen.swift */; };
+		8DA599612692951900E7630A /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA599602692951900E7630A /* LoginViewModel.swift */; };
+		8DA599642692958800E7630A /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA599632692958800E7630A /* AuthenticationService.swift */; };
+		8DA599682692989D00E7630A /* AccountBalanceScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA599672692989D00E7630A /* AccountBalanceScreen.swift */; };
+		8DEA6D992697B95A00804747 /* TouchIDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEA6D982697B95A00804747 /* TouchIDButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8DA5994A2692936200E7630A /* LearnTouchID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnTouchID.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DA5994D2692936200E7630A /* LearnTouchIDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnTouchIDApp.swift; sourceTree = "<group>"; };
-		8DA5994F2692936200E7630A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8DA599512692936800E7630A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DA599542692936800E7630A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8DA599562692936800E7630A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DA5995D2692938D00E7630A /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		8DA599602692951900E7630A /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		8DA599632692958800E7630A /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		8DA599672692989D00E7630A /* AccountBalanceScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBalanceScreen.swift; sourceTree = "<group>"; };
+		8DEA6D982697B95A00804747 /* TouchIDButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchIDButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				8DA5994D2692936200E7630A /* LearnTouchIDApp.swift */,
-				8DA5994F2692936200E7630A /* ContentView.swift */,
 				8DA599512692936800E7630A /* Assets.xcassets */,
 				8DA599562692936800E7630A /* Info.plist */,
 				8DA599532692936800E7630A /* Preview Content */,
+				8DA5995D2692938D00E7630A /* LoginScreen.swift */,
+				8DA599602692951900E7630A /* LoginViewModel.swift */,
+				8DA599632692958800E7630A /* AuthenticationService.swift */,
+				8DA599672692989D00E7630A /* AccountBalanceScreen.swift */,
+				8DEA6D982697B95A00804747 /* TouchIDButton.swift */,
 			);
 			path = LearnTouchID;
 			sourceTree = "<group>";
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DA599502692936200E7630A /* ContentView.swift in Sources */,
+				8DA599612692951900E7630A /* LoginViewModel.swift in Sources */,
 				8DA5994E2692936200E7630A /* LearnTouchIDApp.swift in Sources */,
+				8DEA6D992697B95A00804747 /* TouchIDButton.swift in Sources */,
+				8DA599682692989D00E7630A /* AccountBalanceScreen.swift in Sources */,
+				8DA5995E2692938D00E7630A /* LoginScreen.swift in Sources */,
+				8DA599642692958800E7630A /* AuthenticationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
